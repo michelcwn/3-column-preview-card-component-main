@@ -1,0 +1,178 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100;300;400;500;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap");
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; }
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; }
+  @media only screen and (max-width: 48.75em) {
+    body {
+      padding: 2.5rem;
+      height: 100%; } }
+  @media only screen and (max-width: 25em) {
+    body {
+      padding: 0; } }
+
+h1 {
+  font-size: 4rem;
+  font-weight: 900;
+  font-family: "Big Shoulders Display", sans-serif;
+  color: #ffffff; }
+
+p {
+  font-size: 1.5rem;
+  font-family: "Lexend Deca", sans-serif;
+  color: #ffffff; }
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80vw;
+  height: auto;
+  border-radius: 1.5rem; }
+  @media only screen and (max-width: 48.75em) {
+    .container {
+      display: flex;
+      flex-direction: column;
+      width: 100vw; } }
+  .container .sedans {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #e28625;
+    border-radius: inherit;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    height: 50rem;
+    padding: 5rem; }
+    @media only screen and (max-width: 56.25em) {
+      .container .sedans {
+        height: 45rem;
+        padding: 3rem; } }
+    @media only screen and (max-width: 48.75em) {
+      .container .sedans {
+        border-radius: inherit;
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+        height: 60rem;
+        width: 40rem; } }
+    @media only screen and (max-width: 25em) {
+      .container .sedans {
+        height: 50rem;
+        width: 30rem; } }
+    .container .sedans__img {
+      width: 7rem;
+      height: auto; }
+    .container .sedans__btn {
+      background-color: #ffffff;
+      color: #e28625;
+      font-weight: 600;
+      cursor: pointer;
+      outline: inherit;
+      height: 4.5rem;
+      width: 20rem;
+      border: none;
+      padding: 0;
+      border-radius: 2.5rem;
+      transition: all 0.3s; }
+      .container .sedans__btn:hover {
+        background-color: #e28625;
+        color: #ffffff;
+        border: 1px solid #ffffff; }
+  .container .suvs {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #006971;
+    border-radius: 0;
+    height: 50rem;
+    padding: 5rem; }
+    @media only screen and (max-width: 56.25em) {
+      .container .suvs {
+        height: 45rem;
+        padding: 3rem; } }
+    @media only screen and (max-width: 48.75em) {
+      .container .suvs {
+        height: 60rem;
+        width: 40rem; } }
+    @media only screen and (max-width: 25em) {
+      .container .suvs {
+        height: 50rem;
+        width: 30rem; } }
+    .container .suvs__img {
+      width: 7rem;
+      height: auto; }
+    .container .suvs__btn {
+      background-color: #ffffff;
+      color: #006971;
+      font-weight: 600;
+      cursor: pointer;
+      outline: inherit;
+      height: 4.5rem;
+      width: 20rem;
+      border: none;
+      padding: 0;
+      border-radius: 2.5rem;
+      transition: all 0.3s; }
+      .container .suvs__btn:hover {
+        background-color: #006971;
+        color: #ffffff;
+        border: 1px solid #ffffff; }
+  .container .luxury {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #004140;
+    border-radius: inherit;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    height: 50rem;
+    padding: 5rem; }
+    @media only screen and (max-width: 56.25em) {
+      .container .luxury {
+        height: 45rem;
+        padding: 3rem; } }
+    @media only screen and (max-width: 48.75em) {
+      .container .luxury {
+        border-radius: inherit;
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+        height: 60rem;
+        width: 40rem; } }
+    @media only screen and (max-width: 25em) {
+      .container .luxury {
+        height: 50rem;
+        width: 30rem; } }
+    .container .luxury__img {
+      width: 7rem;
+      height: auto; }
+    .container .luxury__btn {
+      background-color: #ffffff;
+      color: #004140;
+      font-weight: 600;
+      cursor: pointer;
+      outline: inherit;
+      height: 4.5rem;
+      width: 20rem;
+      border: none;
+      padding: 0;
+      border-radius: 2.5rem;
+      transition: all 0.3s; }
+      .container .luxury__btn:hover {
+        background-color: #004140;
+        color: #ffffff;
+        border: 1px solid #ffffff; }
+
+/*# sourceMappingURL=main.css.map */

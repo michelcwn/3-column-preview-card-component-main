@@ -1,0 +1,174 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80vw;
+    height: auto;
+    border-radius: 1.5rem;
+
+    @media only screen and (max-width: $bp-small) {
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+    }
+
+    .sedans {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        background-color: $color-orange;
+        border-radius: inherit;
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+        height: 50rem;
+        padding: 5rem;
+
+        @media only screen and (max-width: $bp-tab) {
+            height: 45rem;
+            padding: 3rem;
+        }
+
+        @media only screen and (max-width: $bp-small) {
+            border-radius: inherit;
+            border-bottom-left-radius: 0;
+            border-bottom-right-radius: 0;
+            height: 60rem;
+            width: 40rem;
+        }
+
+        @media only screen and (max-width: $bp-phone) {
+            height: 50rem;
+            width: 30rem;
+        }
+
+        &__img {
+            width: 7rem;
+            height: auto;
+        }
+
+        &__btn {
+            background-color: $color-white;
+            color: $color-orange;
+            font-weight: 600;
+            cursor: pointer;
+            outline: inherit;
+            height: 4.5rem;
+            width: 20rem;
+            border: none;
+            padding: 0;
+            border-radius: 2.5rem;
+            transition: all 0.3s;
+
+            &:hover {
+                background-color: $color-orange;
+                color: $color-white;
+                border: 1px solid $color-white;
+            }
+        }
+    }
+
+    .suvs {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        background-color: $color-green;
+        border-radius: 0;
+        height: 50rem;
+        padding: 5rem;
+
+        @media only screen and (max-width: $bp-tab) {
+            height: 45rem;
+            padding: 3rem;
+        }
+
+        @media only screen and (max-width: $bp-small) {
+            height: 60rem;
+            width: 40rem;
+        }
+
+        @media only screen and (max-width: $bp-phone) {
+            height: 50rem;
+            width: 30rem;
+        }
+
+        &__img {
+            width: 7rem;
+            height: auto;
+        }
+
+        &__btn {
+            background-color: $color-white;
+            color: $color-green;
+            font-weight: 600;
+            cursor: pointer;
+            outline: inherit;
+            height: 4.5rem;
+            width: 20rem;
+            border: none;
+            padding: 0;
+            border-radius: 2.5rem;
+            transition: all 0.3s;
+
+            &:hover {
+                background-color: $color-green;
+                color: $color-white;
+                border: 1px solid $color-white;
+            }
+        }
+    }
+
+    .luxury {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        background-color: $color-dark-green;
+        border-radius: inherit;
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+        height: 50rem;
+        padding: 5rem;
+
+        @media only screen and (max-width: $bp-tab) {
+            height: 45rem;
+            padding: 3rem;
+        }
+
+        @media only screen and (max-width: $bp-small) {
+            border-radius: inherit;
+            border-top-left-radius: 0;
+            border-top-right-radius: 0;
+            height: 60rem;
+            width: 40rem;
+        }
+
+        @media only screen and (max-width: $bp-phone) {
+            height: 50rem;
+            width: 30rem;
+        }
+
+        &__img {
+            width: 7rem;
+            height: auto;
+        }
+
+        &__btn {
+            background-color: $color-white;
+            color: $color-dark-green;
+            font-weight: 600;
+            cursor: pointer;
+            outline: inherit;
+            height: 4.5rem;
+            width: 20rem;
+            border: none;
+            padding: 0;
+            border-radius: 2.5rem;
+            transition: all 0.3s;
+
+            &:hover {
+                background-color: $color-dark-green;
+                color: $color-white;
+                border: 1px solid $color-white;
+            }
+        }
+    }
+}

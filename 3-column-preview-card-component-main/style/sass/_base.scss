@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100;300;400;500;700;800;900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap");
+
+$color-orange: #e28625;
+$color-green: #006971;
+$color-dark-green: #004140;
+$color-white: #ffffff;
+
+//RESPOSIVE
+
+$bp-tab: 56.25em; //900px
+$bp-small: 48.75em; //780px
+$bp-phone: 25em; //400px
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%; // 10px/16px = 62.5% -> 1rem = 10px
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+    @media only screen and (max-width: $bp-small) {
+        padding: 2.5rem;
+        height: 100%;
+    }
+
+    @media only screen and (max-width: $bp-phone) {
+        padding: 0;
+    }
+}
